@@ -93,3 +93,9 @@ PRODUCT_COPY_FILES += \
 $(VENDOR_BLOB_FOLDER)/lib/hw/gps.spyder.so:/system/lib/hw/gps.umts_spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensorhub.spyder.so:/system/lib/hw/sensorhub.umts_spyder.so \
 $(VENDOR_BLOB_FOLDER)/lib/hw/sensors.spyder.so:/system/lib/hw/sensors.umts_spyder.so
+
+# audio
+PRODUCT_COPY_FILES += \
+$(VENDOR_BLOB_FOLDER)/lib/libaudio_ext.so:/system/lib/libaudio_ext.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/alsa.omap4.so:/system/lib/hw/alsa.omap4.so \
+$(VENDOR_BLOB_FOLDER)/lib/hw/audio.primary.omap4.so:/system/lib/hw/audio.primary.omap4.so
