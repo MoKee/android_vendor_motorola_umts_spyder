@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_spyder/proprietary/lib/librds_util.so:system/lib/librds_util.so \
     vendor/motorola/umts_spyder/proprietary/lib/libril_rds.so:system/lib/libril_rds.so \
     vendor/motorola/umts_spyder/proprietary/lib/moto-ril-multimode.so:system/lib/moto-ril-multimode.so \
-    vendor/motorola/umts_spyder/proprietary/lib/hw/gps.umsts_spyder.so:system/lib/hw/gps.umsts_spyder.so \
+    vendor/motorola/umts_spyder/proprietary/lib/hw/gps.umts_spyder.so:system/lib/hw/gps.umts_spyder.so \
     vendor/motorola/umts_spyder/proprietary/lib/hw/sensorhub.umts_spyder.so:system/lib/hw/sensorhub.umts_spyder.so \
     vendor/motorola/umts_spyder/proprietary/lib/hw/sensors.umts_spyder.so:system/lib/hw/sensors.umts_spyder.so \
     vendor/motorola/umts_spyder/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \
@@ -40,4 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_spyder/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:system/etc/firmware/ducati-m3.bin \
     vendor/motorola/umts_spyder/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
-    vendor/motorola/umts_spyder/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so
+    vendor/motorola/umts_spyder/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
+    vendor/motorola/umts_spyder/proprietary/lib/hw/alsa.omap4.so:system/lib/hw/alsa.omap4.so \
+    vendor/motorola/umts_spyder/proprietary/lib/libaudio_ext.so:system/lib/libaudio_ext.so
