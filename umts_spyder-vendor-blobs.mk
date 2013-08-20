@@ -40,6 +40,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_spyder/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/umts_spyder/proprietary/etc/firmware/ducati-m3.bin:system/etc/firmware/ducati-m3.bin \
     vendor/motorola/umts_spyder/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
-    vendor/motorola/umts_spyder/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so \
-    vendor/motorola/umts_spyder/proprietary/lib/hw/alsa.omap4.so:system/lib/hw/alsa.omap4.so \
-    vendor/motorola/umts_spyder/proprietary/lib/libaudio_ext.so:system/lib/libaudio_ext.so
+    vendor/motorola/umts_spyder/proprietary/lib/hw/audio.primary.omap4.so:system/lib/hw/audio.primary.omap4.so
